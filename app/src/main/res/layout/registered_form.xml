@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Account Details"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+         />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="565dp"
+        android:text="Name :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+
+        />
+
+
+    <TextView
+        android:id="@+id/PhoneNo"
+        android:layout_width="339dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="457dp"
+        android:text="Phone NO  :"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="343dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="386dp"
+        android:text="GMAIL :"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>
